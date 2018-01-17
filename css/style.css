@@ -1,0 +1,172 @@
+header{
+	background-image: url(https://images5.alphacoders.com/321/thumb-1920-321139.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 700px;
+}
+
+nav{
+	background-color: rgba(209, 209, 209,0.5);
+	width: 100%;
+}
+ul li a{
+	color: #1b3b21;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+form{
+	padding-top: 5%;
+	padding-right: 15%;
+}
+input, textarea{
+	margin: 1%;
+}
+
+.img-logo{
+	padding-right: 5%;
+}
+
+.position-relative{
+	position: relative;
+}
+
+.position-absolute{
+	position: absolute;
+	top:1%;
+	left: 2%;
+}
+
+.tamanho-h1{
+	font-size: 1em;
+}
+
+.bg-h1{
+	background-color: rgba(209, 209, 209,0.3);
+}
+
+.btn-mover{
+	padding-bottom: 5%;
+}
+
+.move-h1{
+	margin-top: 35%;
+}
+
+.row-botao{
+	margin-top: 8%;
+}
+
+.texto-alinhado{
+	text-align: center;
+}
+
+.espaco-section{
+	padding-top: 4%;
+}
+
+.borda{
+	background-color: rgba(27,59,33,0.1);
+}
+
+.espaco-card{
+	margin: 5% 18%;
+	/*margin-left:18%;*/
+}
+
+
+.card{
+	border: 0px;
+}
+
+#conheca{
+	margin-top: 3%;
+}
+
+.texto{
+	padding: 2%;
+	font-size: 1.1em;
+	line-height: 190%;
+	margin-bottom: 15%;	
+}
+
+.borda-col2{
+	margin-top: 30%;
+}
+
+.btn{
+	background-color: #1b3b21;
+	color: white;
+}
+
+.bg-h1{
+	background-color: rgba(209, 209, 209,0.3);
+}
+
+.btn-mover{
+	padding-bottom: 5%;
+}
+
+.move-h1{
+	margin-top: 30%;
+}
+
+.row-botao{
+	margin-top: 8%;
+}
+
+.texto-alinhado{
+	text-align: center;
+}
+
+.espaco-section{
+	padding-top: 4%;
+}
+
+.programacao{
+	background-color: #D3D3D3;
+}
+.row-pre{
+	height: 45%;
+}
+
+.card-pre{
+	height: 70%;
+	width: 200px;
+}
+.card-aula{
+	height: 95%;
+	width: 200px;
+}
+.card-img-pre{
+	max-height: 50%;
+	
+}
+.card-footer-pre{
+	background-color: rgba(255,255,255,0.7);
+}
+
+
+.btn-nentendi{
+	border-color: #1b3b21;
+	color: #1b3b21;
+}
+
+.btn-nentendi:hover{
+	background-color: #1b3b21;
+	border-color: #1b3b21;
+	color: white;
+}
+
+.btn-feedback{
+	background-color: #535353;
+	border-color: #535353;
+	color: white;
+}
+
+.btn-feedback:hover{
+	background-color: #1b3b21;
+	border-color: #535353;
+	color: white;
+}
