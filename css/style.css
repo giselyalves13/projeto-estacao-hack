@@ -1,3 +1,6 @@
+*{
+	font-family: 'Ubuntu', sans-serif;
+}
 header{
 	background-color: #808080;
 	width: 100%;
@@ -5,15 +8,22 @@ header{
 }
 
 nav{
-	background-color: rgba(255,255,255,0.5);
+	background-color:#013243;
 	width: 100%;
 	box-shadow: 3px 3px 50px black;
 	position: fixed;
 }
 ul li a{
-	color: #1b3b21;
+	color: white;
 	font-size: 1.3em;
-	font-weight: bold;
+	
+}
+ul{
+	display: inline;
+}
+.divisao{
+	color: white;
+	font-size: 1.7em;
 }
 
 form{
@@ -196,3 +206,19 @@ input, textarea{
 	border-color: #535353;
 	color: white;
 }
+
+/*-------*/
+.busca{
+	
+	border: 0;
+	width: 400px;
+	border-radius: 30px;
+	margin: 0;
+	padding: 0;
+}
+.btn-busca{
+	padding: 0;
+	color: white;
+	margin: 0;
+}
+
