@@ -1,20 +1,35 @@
 *{
 	font-family: 'Ubuntu', sans-serif;
 }
+
 header{
 	width: 100%;
 	height: 700px;
 }
 .container-fluid{
-	padding: 0;
+	
+	
 }
+body{
+	margin-top: 90px;
+	width: 100%;
+}
+
 /* css navbar ---------------- */
 nav{
 	background-color: #013243;
 	width: 100%;
 	box-shadow: 3px 3px 50px black;
 	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
 }
+.navbar{
+	position: fixed;
+}
+
 ul li a{
 	color: white;
 	font-size: 1.3em;
@@ -43,7 +58,8 @@ i{
 }
 .divisor{
 	color: white;
-	font-size: 1.7em;
+	font-size: 1.6em;
+	
 }
 
 .navbar-brand{
@@ -56,7 +72,10 @@ i{
 }
 
 /* ------------------------------- */
-
+.conteudo, .col-sm-6{
+	border: 1px solid red;
+	height: 400px;
+}
 
 .row-pre{
 	height: 45%;
@@ -78,27 +97,37 @@ i{
 	background-color: rgba(255,255,255,0.7);
 }
 
-.btn-nentendi{
-	border-color: #1b3b21;
-	color: #1b3b21;
+.btn-duvida{
+	width: 150px;
+	color: black;
+	background-color: #446CB3;
+	font-size: 20px;
+	padding: 0;
 }
 
-.btn-nentendi:hover{
-	background-color: #1b3b21;
-	border-color: #1b3b21;
+.btn-duvida:hover{
+	background-color: #013243;
 	color: white;
 }
 
 .btn-feedback{
-	background-color: #535353;
-	border-color: #535353;
+	width: 150px;
+	background-color: #013243;
 	color: white;
+	font-size: 20px;
+	padding: 0;
+	padding-bottom: 3px;
 }
 
 .btn-feedback:hover{
-	background-color: #1b3b21;
-	border-color: #535353;
-	color: white;
+	background-color: #446CB3;
+	color: black;
+}
+.btn-group-video{
+	display: flex;
+	justify-content: space-between;
+	padding-right: 13%;
+	margin-top: 3%;
 }
 
 

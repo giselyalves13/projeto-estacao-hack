@@ -4,44 +4,105 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title></title>
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	
 	<!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
 	<link rel="stylesheet" type="text/css" href="css/style-assista-video.css">
 
 </head>
-<body>
 	
 
-	<header class="container-fluid">
-		<nav class="navbar">
-			<a class="navbar-brand" href="#">
-				<img src="img/logoAgoraVai.png" height="60" alt="Logo">
+	<header>
+		<nav class="navbar navbar-fixed-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<img src="img/logoAgoraVai.png" height="60" alt="Logo">
+						
+				</a>
+				<div class="barra-busca">
+					<a><i class="material-icons md-36">search</i></a>
+					<input type="text" class="form-control input-busca" placeholder="Entrada de texto">
+				</div>
 			
-			</a>
-			<div class="barra-busca">
-				<a><i class="material-icons md-36">search</i></a>
-				<input type="text" class="form-control input-busca" placeholder="Entrada de texto">
+				<div> 
+					<ul class="nav">
+						<li class="nav-item">
+							<a href="#" class="nav-link">Aulas</a>
+						</li>
+						<li class="divisor">|</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Enviar uma aula</a>
+						</li>
+						<li class="divisor">|</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Sujestões</a>
+						</li>
+					</ul>
+				</div>
 			</div>
-
-			<div> 
-				<ul class="nav">
-					<li class="nav-item">
-						<a href="#" class="nav-link">Aulas</a>
-					</li>
-					<li class="nav-item">
-						<a href="#" class="nav-link">Enviar uma aula</a>
-					</li>
-					<li class="nav-item">
-						<a href="#" class="nav-link">Sujestões</a>
-					</li>
-				</ul>
-			</div>
+			
 		</nav>
 
-		<div class="row">
-			<div class="col-sm-6">
+		<div class="container-fluid">
+			<div class="row conteudo">
+				<div class="col-sm-6 video">
+					<h1>TTTULO</h1>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/ipHuSfOYhwA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+					<div class="btn-group-video">
+						<button class="btn btn-duvida">Dúvida</button>
+						<button class="btn btn-feedback">Feedback</button>
+					</div>
+
+				</div>
+				<div class="col-sm-6">
+
+				</div>
+			</div>
+
+
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- <div class="row">
+			<div class="col-sm-5">
 
 				<h2>Título do Vídeo</h2>
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/ipHuSfOYhwA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -56,7 +117,7 @@
 
 				</div>
 				<!-- Formulário de envio de dúvida, só é pra aparecer quando clicar no botão NÃO ENTENDI -->
-				<form>
+				<!-- <form>
 					<div class="row">
 						<div class="col">
 							 <input type="text" class="form-control" placeholder="Assunto">
@@ -70,13 +131,15 @@
 				</form>
 
 				<!-- Formulário de Comentario, só é pra aparecer quando clicarem no botão Feedback -->
-				<form>
+		<!--	<form>
 					<textarea class="form-control" id="" rows="3" placeholder="Comentário"></textarea>
-				</form>
+			</form>
+				
+					
 					
 			</div>
 
-			<div class="col-sm-6">
+			<div class="col-sm-5">
 				<div class="row row-pre">
 					<h3>Conhecimentos pré requisitos</h3>
 					<div class="card-deck">
@@ -127,10 +190,10 @@
 			</div>
 			
 		</div>
-		
+		 -->
 
 	</header>
 
-	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
