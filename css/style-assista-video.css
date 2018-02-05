@@ -73,28 +73,6 @@ i{
 
 /* ------------------------------- */
 .conteudo, .col-sm-6{
-	border: 1px solid red;
-	height: 400px;
-}
-
-.row-pre{
-	height: 45%;
-}
-
-.card-pre{
-	height: 70%;
-	width: 200px;
-}
-.card-aula{
-	height: 95%;
-	width: 200px;
-}
-.card-img-pre{
-	max-height: 50%;
-	
-}
-.card-footer-pre{
-	background-color: rgba(255,255,255,0.7);
 }
 
 .btn-duvida{
@@ -103,6 +81,7 @@ i{
 	background-color: #446CB3;
 	font-size: 20px;
 	padding: 0;
+	margin-top: 5px;
 }
 
 .btn-duvida:hover{
@@ -117,6 +96,7 @@ i{
 	font-size: 20px;
 	padding: 0;
 	padding-bottom: 3px;
+	margin-top: 5px;
 }
 
 .btn-feedback:hover{
@@ -130,6 +110,70 @@ i{
 	margin-top: 3%;
 }
 
+.form-duvida{
+	display: none;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+}
+.duvida{
+	margin-bottom: 2%;
+	width: auto;
+	margin-top: 5px;
+}
 
+textarea.duvida, .email.duvida{
+	width: 100%;
+	margin-top: 5px;
+}
+.titulo-video{
+	font-size: 35px;
+}
+.form-feedback{
+	display: none;
+}
 
+.feedback{
+	margin-top: 5px;
+}
 
+.card-text{
+	font-size: 15px;
+	
+}
+.card-title{
+	font-size: 18px;
+	width: 200px;
+}
+iframe.card-img-top{
+	height: 120px;
+	width: 200px;
+	margin: auto;
+	border: none;
+}
+.card{
+	width: 210px;
+	margin: 1%;
+	background-color: #013243;
+		
+}
+.btn-link{
+	color: white;;
+}
+.pre-requisito{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 5%;
+}
+h2{
+	font-size: 25px;
+	margin-top: 1%;
+}
+.group-aulas{
+	display: flex;
+	margin-top: 5%;
+
+}
+.aulas{
+	margin: 1%;
+}
