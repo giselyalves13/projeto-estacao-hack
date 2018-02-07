@@ -47,153 +47,86 @@
 		<div class="container-fluid">
 			<div class="row conteudo">
 				<div class="col-sm-6 video">
-					<h1>TTTULO</h1>
+					<h1 class="titulo-video">TTTULO</h1>
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/ipHuSfOYhwA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 					<div class="btn-group-video">
-						<button class="btn btn-duvida">Dúvida</button>
-						<button class="btn btn-feedback">Feedback</button>
+						<button class="btn btn-duvida" onclick="abrirDuvida()">Dúvida</button>
+						<button class="btn btn-feedback" onclick="abrirFeedback()">Feedback</button>
 					</div>
 
+					
+					<form class="form-duvida">
+						<input type="text" class="form-control duvida" placeholder="Assunto">
+						<input type="text" class="form-control duvida" placeholder="time">
+						<input type="email" class="form-control email duvida" placeholder="Email">
+						<textarea class="form-control duvida" rows="3" placeholder="Escreva sua dúvida"></textarea>
+						<button class="btn btn-duvida">Enviar</button>
+					</form>
+					<form class="form-feedback">
+						<textarea class="form-control feedback" rows="3" placeholder="Envie seu comentário ao professor!"></textarea>
+						<button class="btn btn-feedback" >Enviar</button>
+					</form>
 				</div>
 				<div class="col-sm-6">
+					<h2>Conteúdo necessário</h2>
+					<div class="pre-requisito">
+							
+							<div class="card">
+									<iframe class="card-img-top" src="https://www.youtube.com/embed/ipHuSfOYhwA" alt="Card image cap"></iframe>
+									<div class="card-body">
+										<a href="#" class="btn-link">
+											<h5 class="card-title">Card title</h5>
+											<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										</a>
+									</div>
+							</div>
+							<div class="card">
+									<iframe class="card-img-top" src="https://www.youtube.com/embed/ipHuSfOYhwA" alt="Card image cap"></iframe>
+									<div class="card-body">
+										<a href="#" class="btn-link">
+											<h5 class="card-title">Card title</h5>
+											<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										</a>
+									</div>
+							</div>	
+					</div>
+					<div class="group-aulas">
+						<div class="aulas">
+							<h2>Aula Anterior</h2>
+							<div class="card">
+									<iframe class="card-img-top" src="https://www.youtube.com/embed/ipHuSfOYhwA" alt="Card image cap"></iframe>
+									<div class="card-body">
+										<a href="#" class="btn-link">
+											<h5 class="card-title">Card title</h5>
+											<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										</a>
+									</div>
+							</div>
+						</div>
+						<div class="aulas">
+							<h2>Próxima aula</h2>
+							<div class="card">
+									<iframe class="card-img-top" src="https://www.youtube.com/embed/ipHuSfOYhwA" alt="Card image cap"></iframe>
+									<div class="card-body">
+										<a href="#" class="btn-link">
+											<h5 class="card-title">Card title</h5>
+											<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										</a>
+									</div>
+							</div>
+						</div>	
+					</div>
 
 				</div>
 			</div>
 
 
 		</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		<!-- <div class="row">
-			<div class="col-sm-5">
-
-				<h2>Título do Vídeo</h2>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/ipHuSfOYhwA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-				
-				<div class="row">
-					<div class="col-sm-6">
-						<button type="button" class="btn btn-outline-warning btn-nentendi">Não Entendi?</button>
-					</div>
-					<div class="col-sm-6">
-						<button type="button" class="btn btn-outline-info btn-feedback">Feedback</button>
-					</div>
-
-				</div>
-				<!-- Formulário de envio de dúvida, só é pra aparecer quando clicar no botão NÃO ENTENDI -->
-				<!-- <form>
-					<div class="row">
-						<div class="col">
-							 <input type="text" class="form-control" placeholder="Assunto">
-						</div>
-						<div class="col">
-							 <input type="text" class="form-control" placeholder="">		
-						</div>
-					</div>
-					 <input type="email" class="form-control" placeholder="email">
-					<textarea class="form-control" id="" rows="3" placeholder="Dúvida"></textarea>
-				</form>
-
-				<!-- Formulário de Comentario, só é pra aparecer quando clicarem no botão Feedback -->
-		<!--	<form>
-					<textarea class="form-control" id="" rows="3" placeholder="Comentário"></textarea>
-			</form>
-				
-					
-					
-			</div>
-
-			<div class="col-sm-5">
-				<div class="row row-pre">
-					<h3>Conhecimentos pré requisitos</h3>
-					<div class="card-deck">
-						  <div class="card card-pre">
-						    
-						    <iframe class="card-img-top card-img-pre" src="https://www.youtube.com/embed/iZ1ucWosOww" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-						    <div class="card-body">
-						      <h5 class="card-title">Html5</h5>
-						      <a href="#"><small class="text-muted">Veja Agora!</small></a>
-						    </div>
-				
-						  </div>
-						  <div class="card card-pre">
-						    <img class="card-img-top card-img-pre" src="http://blogdoscursos.com.br/wp-content/uploads/2017/03/Git-Logo-1788C1.png" alt="Card image cap">
-						    <div class="card-body">
-						    	<h5 class="card-title">Git</h5>
-						    	<a href="#"><small class="text-muted">Veja Agora!</small></a>
-						    </div>
-						    
-						  </div>
-						  
-					</div>
-				</div>
-				<div class="row">
-					<div class="card-deck">
-						
-						 <div class="card card-aula">
-						    <h4>Aula anterior</h4>
-						   <iframe class="card-img-top" src="https://www.youtube.com/embed/ZW02MWzZXPE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-						    <div class="card-body">
-						      <h5 class="card-title">Html5</h5>
-						      <a href="#"><small class="text-muted">Veja Agora!</small></a>
-						    </div>
-				
-						 </div>
-
-						 <div class="card card-aula">
-						   <h4>Próxima aula</h4> 
-						   <iframe class="card-img-top" src="https://www.youtube.com/embed/ZW02MWzZXPE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-						    <div class="card-body">
-						      <h5 class="card-title">Html5</h5>
-						      <a href="#"><small class="text-muted">Veja Agora!</small></a>
-						    </div>
-				
-						 </div>
-					</div>
-				</div>
-			</div>
-			
-		</div>
-		 -->
 
 	</header>
 
+	<script src="js/script-assista-video.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
