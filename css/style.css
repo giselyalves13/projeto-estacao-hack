@@ -3,7 +3,7 @@
 }
 header{
 	width: 100%;
-	height: 700px;
+	height: 80% !important;
 }
 /* css navbar ---------------- */
 nav{
@@ -50,42 +50,37 @@ i{
 .navbar-brand img{
 	height: 55px;
 	width: auto;
-
 }
 
-/* ------------------ */
-
-.capa{
-	padding: 0;
+.row {
+	width: 100%;
 }
 
-.capa img{
-	height: 400px;
-	margin: 20%;
-	margin-top: 5%;
-	margin-bottom: 0;
+.container {
+	padding: 80px 120px;
 }
-
-.btn-capa{
-	margin-left: 40%;
-	margin-top: 5%;
-	display: block;
-	padding-bottom: 5%;
+.person {
+	border: 10px solid transparent;
+	margin-bottom: 25px;
+	width: 80%;
+	height: 80%;
+	opacity: 0.7;
+}
+.person:hover {
+	border-color: #f1f1f1;
 }
 
 
-.texto{
-	padding: 2%;
-	font-size: 1.1em;
-	line-height: 190%;
-	margin-bottom: 15%;	
+.bg-1 {
+    background: #2d2d30;
+    color: #473a3a;
 }
+.bg-1 h3 {color: rgb(17, 13, 13);}
+.bg-1 p {font-style: italic;}
 
-.btn{
-	background-color: #1b3b21;
-	color: white;
+.bg-1 {
+    background: #2d2d30;
+    color: #bdbdbd;
 }
-
-
-
-
+.bg-1 h3 {color: #fff;}
+.bg-1 p {font-style: italic;}
