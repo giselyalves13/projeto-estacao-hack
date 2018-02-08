@@ -16,7 +16,7 @@
 <body>
 	<header id="home" style="height: 530px;">
 		<nav class="navbar">
-			<a class="navbar-brand" href="#">
+			<a class="navbar-brand" href="index.html">
 				<img src="img/logoAgoraVai.png" height="60" alt="Logo">
 			
 			</a>
@@ -26,17 +26,19 @@
 			</div>
 
 			<div> 
-				<ul class="nav">
-					<li class="nav-item">
-						<a href="#" class="nav-link">Aulas</a>
-					</li>
-					<li class="nav-item">
-						<a href="#" class="nav-link">Enviar uma aula</a>
-					</li>
-					<li class="nav-item">
-						<a href="#" class="nav-link">Sujestões</a>
-					</li>
-				</ul>
+					<ul class="nav">
+							<li class="nav-item">
+								<a href="#" class="nav-link">Aulas</a>
+							</li>
+							<li class="divisor">|</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link">Enviar uma aula</a>
+							</li>
+							<li class="divisor">|</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link">Sujestões</a>
+							</li>
+						</ul>
 			</div>
 		</nav>
 
@@ -106,7 +108,7 @@
 		<div class="row" style="margin: 28px 0 10px;">
 			<div class="col-sm-4">
 				<p class="text-center"><strong>Tecnologias</strong></p><br>
-				<img src="img/note.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+				<a href="tecnologias.html"><img src="img/note.jpg" class="img-circle person" alt="Random Name" width="255" height="255"></a>
 			</div>
 			<div class="col-sm-4">
 				<p class="text-center"><strong>Inglês</strong></p><br>
@@ -122,34 +124,24 @@
 </section>
 <section>
 	<div class="container-fluid bg-grey">
-		<h2 class="text-center">Enviar seu Video</h2>
+		<h2 class="text-center" style="margin-bottom: 30px;!important!">É professor? Envie seu vídeo!</h2>
 		<div class="row">
-			<div class="col-sm-5">
-				<p>CONTATO</p>
-				<p><span class="glyphicon glyphicon-map-marker"></span> Endereço:</p>
-				<p><span class="glyphicon glyphicon-phone"></span> Telefone:</p>
-				<p><span class="glyphicon glyphicon-envelope"></span> E-mail:</p> 
-			</div>
-			<div class="col-sm-7">
-				<div class="row">
-					<div class="col-sm-6 form-group">
-						<input class="form-control" id="name" name="Nome" placeholder="Nome" type="text" required>
-					</div>
-					<div class="col-sm-6 form-group">
-						<input class="form-control" id="email" name="Assunto" placeholder="Assunto" type="text" required>
-					</div>
-				</div>
-				<textarea class="form-control" id="comments" name="comments" placeholder="Detalhes" rows="5"></textarea><br>
-				<div class="row">
+			<p style="margin: auto; display:block;" > Gostaríamos de ter as suas aulas compartilhadas e organizadas em nossa plataforma. Enviando sua aula você nos ajuda a desenvolver milhares de pessoas de maneira eficiente!</p>
+			
 					<div class="col-sm-12 form-group">
-						<button class="btn btn-default pull-right" type="submit">Enviar
-						</button>
+						<a href="envio-video.html"><button  class="btn btn-default " style="margin: auto; display:block;  margin-top: 4%; margin-bottom: 6%;" type="submit">Envie sua aula!
+						</button></a>
 					</div>
-				</div> 
-			</div>
 		</div>
 	</div>
 </section>
+
+<footer>
+		<p>CONTATO</p>
+		<p><span class="glyphicon glyphicon-map-marker"></span> Endereço: Av. Paulista </p>
+		<p><span class="glyphicon glyphicon-phone"></span> Telefone: 9999-9999</p>
+		<p><span class="glyphicon glyphicon-envelope"></span> E-mail: agora@vai.com</p> 
+</footer>
 
 </body>
 </html>

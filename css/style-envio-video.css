@@ -4,9 +4,19 @@
 header{
 	width: 100%;
 	height: 700px;
+	
+}
+footer{
+	background-color: #013243;
+	width: 100%;
+	box-shadow: 3px 3px 50px black;
+	padding: 20px;
+	color: white;
+	display: block;
 }
 .container-fluid{
 	padding: 0;
+	
 }
 /* css navbar ---------------- */
 nav{
@@ -57,3 +67,80 @@ i{
 }
 
 /* ------------------ */
+
+.conteudo{
+	margin-top: 10px;
+	justify-content: center;
+}
+.conteudo h1{
+	text-align: center;
+}
+
+/* CSS cadastro de vídeo */
+
+.container-fluid{
+	height: 100%;
+	width: 100;
+	padding:  10px 80px 100px 80px;
+	
+}
+
+.mestre {
+	width: 500px;
+	height: 600px;
+	background-color:#c9cae8a2;
+	padding: 15px;
+	display: block;
+	margin-left: 60px;
+	border-radius: 12px;
+	margin-top: 12px;
+	position: static;
+	float: left;
+	box-shadow: 3px 2px 30px rgb(14, 15, 102);
+	
+}
+.cadastro {
+	width: 100%;
+    padding: 12px 20px;
+    margin: 5px 0px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.textoCentro {
+	text-align: center;
+}
+
+.botaoEntrar {
+ display: block;
+ margin-top: 10px;
+ height: 40px;
+ width: 120px;
+ border-radius: 4px;
+ color:white;
+ background-color:#013243;
+ border: 1px #9aaa9f;
+}
+
+.botaoEntrar2 {
+	display: block;
+	margin-top: 10px;
+	height: 40px;
+	width: 200px;
+	border-radius: 4px;
+	color:white;
+	background-color:#013243;
+	border: 1px #9aaa9f;
+   }
+
+#botaoEnviar {
+	height: 100px;
+	width: 100%;
+	
+}
+.iconeUp {
+	font-size: xx-large;
+	margin: 0px;
+	color: #474e49;
+}

@@ -1,0 +1,7 @@
+.todos-cursos{
+    display: flex;
+    margin: 3%;
+}
+h2{
+	display: block;
+}

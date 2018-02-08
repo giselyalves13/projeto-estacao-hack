@@ -3,13 +3,21 @@ let abrirDuvida = () =>{
     let feedback = document.querySelector('.form-feedback');
 
     feedback.style.display = 'none';
-
-    duvida.style.display = 'flex';
+    if(duvida.style.display == 'inline'){
+        duvida.style.display = 'none';
+    }else{
+        duvida.style.display = 'inline';
+    }
+    
 }
 let abrirFeedback = () =>{
     let duvida = document.querySelector('.form-duvida');
     let feedback = document.querySelector('.form-feedback');
 
     duvida.style.display = 'none';
-    feedback.style.display = 'block';
+    if(feedback.style.display == 'block'){
+        feedback.style.display = 'none';
+    }else{
+        feedback.style.display = 'block';
+    }
 }

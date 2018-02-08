@@ -7,6 +7,12 @@ header{
 	height: 700px;
 }
 
+footer{
+	background-color: #013243;
+	width: 100%;
+	box-shadow: 3px 3px 50px black;
+	padding: 20px;
+	color: white;
 }
 body{
 	margin-top: 90px;
@@ -72,7 +78,22 @@ i{
 /* ------------------------------- */
 .conteudo, .col-sm-6{
 }
+.form-duvida{
+	display: none;
+}
+.duvida{
+	display: inline;
+	width: 45%;
+	flex-wrap: wrap;
+	margin: 1%;
+}
 
+.duvida.email{
+	width: 93%;
+}
+textarea.duvida{
+	width: 93%;
+}
 .btn-duvida{
 	width: 150px;
 	color: black;
@@ -85,6 +106,15 @@ i{
 .btn-duvida:hover{
 	background-color: #013243;
 	color: white;
+}
+
+.form-feedback{
+	display: none;
+}
+.feedback{
+	margin: 1%;
+	display: block;
+	width: 93%;
 }
 
 .btn-feedback{
@@ -108,102 +138,7 @@ i{
 	margin-top: 3%;
 }
 
-<<<<<<< HEAD
-/* CSS cadastro de vídeo */
 
-.container-fluid{
-	height: 100%;
-	width: 100;
-	padding:  100px 80px 100px 80px;
-	
-}
-
-.mestre {
-	width: 500px;
-	height: 600px;
-	background-color:#c9cae8a2;
-	padding: 15px;
-	display: inline-block;
-	margin-left: 60px;
-	border-radius: 12px;
-	margin-top: 12px;
-	position: static;
-	float: left;
-	box-shadow: 3px 2px 30px rgb(14, 15, 102);
-	
-}
-.cadastro {
-	width: 100%;
-    padding: 12px 20px;
-    margin: 5px 0px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-.textoCentro {
-	text-align: center;
-}
-
-.botaoEntrar {
- display: block;
- margin-top: 10px;
- height: 40px;
- width: 120px;
- border-radius: 4px;
- color:white;
- background-color:#013243;
- border: 1px #9aaa9f;
-}
-
-.botaoEntrar2 {
-	display: block;
-	margin-top: 10px;
-	height: 40px;
-	width: 200px;
-	border-radius: 4px;
-	color:white;
-	background-color:#013243;
-	border: 1px #9aaa9f;
-   }
-
-#botaoEnviar {
-	height: 100px;
-	width: 100%;
-	
-}
-.iconeUp {
-	font-size: xx-large;
-	margin: 0px;
-	color: #474e49;
-=======
-.form-duvida{
-	display: none;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	
-}
-.duvida{
-	margin-bottom: 2%;
-	width: auto;
-	margin-top: 5px;
-}
-
-textarea.duvida, .email.duvida{
-	width: 100%;
-	margin-top: 5px;
-}
-.titulo-video{
-	font-size: 35px;
-}
-.form-feedback{
-	display: none;
-}
-
-.feedback{
-	margin-top: 5px;
->>>>>>> 2cc56b36d6175199c99fb54d30a85f6204eff424
-}
 
 .card-text{
 	font-size: 15px;
@@ -245,3 +180,4 @@ h2{
 .aulas{
 	margin: 1%;
 }
+
